@@ -119,14 +119,14 @@ class Tdsheader extends React.Component {
                     Services
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink
                     onClick={() => this.scrollToTop("team")}
                     className={this.state.activeMenu == "team" ? "active" : ""}
                   >
                     Team
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
 
                 <NavItem>
                   <NavLink

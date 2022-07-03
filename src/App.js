@@ -112,70 +112,73 @@ class App extends React.Component {
               <h2>
                 Our <b>Services</b>
               </h2>
-              <p>There are many variations of passages of available.</p>
+              <p>
+                We provide you with extensive services in garage door repairs
+                and on time delivery of your customized doors with the help of
+                our skilled and experienced professionals. Trusting us relieves
+                you from stress of being unsecured and unsafe. Our services
+                include:
+              </p>
             </div>
             <Row>
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="icofont-crown" />
-                  <h4>Branding</h4>
-                  <p>There are many variations of passages of available.</p>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="icofont-pen-alt-3" />
-                  <h4>UX/UI Design</h4>
-                  <p>There are many variations of passages of available.</p>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="icofont-camera-alt" />
-                  <h4>Photography</h4>
-                  <p>There are many variations of passages of available.</p>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="icofont-chart-growth" />
-                  <h4>Marketing</h4>
-                  <p>There are many variations of passages of available.</p>
-                </div>
-              </Col>
-              <Col xs="12" sm="6" md="6" lg="3">
-                <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="icofont-laptop-alt" />
-                  <h4>Web Design</h4>
-                  <p>There are many variations of passages of available.</p>
+                  <Icofont icon="icofont-repair" />
+                  <h4>Garge Door Repair</h4>
+                  <p>
+                    Available by one call to minimize your worries in minimal
+                    time, our specialization lies in repair and servicing of all
+                    models of Garage doors.
+                  </p>
                 </div>
               </Col>
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="white-bg coman-box ourservice-box">
                   <Icofont icon="icofont-tick-boxed" />
-                  <h4>Development</h4>
-                  <p>There are many variations of passages of available.</p>
-                </div>
-              </Col>
-              <Col xs="15" sm="6" md="6" lg="3">
-                <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="paper" />
-                  <h4>Content Writer</h4>
-                  <p>There are many variations of passages of available.</p>
+                  <h4> Old and new doors</h4>
+                  <p>
+                    All old, repairable as well as new doors can be installed
+                    without much hassle in no downtime.
+                  </p>
                 </div>
               </Col>
               <Col xs="12" sm="6" md="6" lg="3">
                 <div className="white-bg coman-box ourservice-box">
-                  <Icofont icon="search-job" />
-                  <h4>SEO & SMM</h4>
-                  <p>There are many variations of passages of available.</p>
+                  <Icofont icon="icofont-sound-wave" />
+                  <h4>Remote control</h4>
+                  <p>
+                    Our doors appear to be a good choice for tech savvy persons
+                    who want them to be operated by a single click on remote
+                    offering multiple features.
+                  </p>
+                </div>
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3">
+                <div className="white-bg coman-box ourservice-box">
+                  <Icofont icon="icofont-abacus-alt" />
+                  <h4>Customized sliders</h4>
+                  <p>
+                    Gates can be customized as per your specifications. New
+                    varied collection of sliding gates are designed and
+                    installed by us.
+                  </p>
+                </div>
+              </Col>
+              <Col xs="12" sm="6" md="6" lg="3">
+                <div className="white-bg coman-box ourservice-box">
+                  <Icofont icon="icofont-ambulance" />
+                  <h4>Emergency service</h4>
+                  <p>
+                    TYou need services on weekends or during late night hours,
+                    we are available 24x7 for you just a phone call away.
+                  </p>
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
         {/* Team Section Start */}
-        <div className="section expert-team grapping" id="team">
+        {/* <div className="section expert-team grapping" id="team">
           <Container>
             <div className="title-box">
               <h2>
@@ -325,9 +328,9 @@ class App extends React.Component {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* Portfolio Section Start*/}
-        <div className="section ourportfolio grapping" id="portfolio">
+        {/* <div className="section ourportfolio grapping" id="portfolio">
           <Container>
             <div className="title-box">
               <h2>
@@ -340,9 +343,9 @@ class App extends React.Component {
             </div>
             <Tdslightbox></Tdslightbox>
           </Container>
-        </div>
+        </div> */}
         {/* Marketing Section Start*/}
-        <div className="marketing-section grapping">
+        {/* <div className="marketing-section grapping">
           <Container>
             <Row className="align-items-center">
               <Col xs="12" sm="12" md="12" lg="6">
@@ -388,24 +391,20 @@ class App extends React.Component {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* Expert Feadback Section Start */}
         <div className="expertfeesback grapping">
           <Container>
             <div className="title-box">
               <h2>
-                Expert <b>Feadback</b>
+                <b>Feadback</b> by our customers
               </h2>
-              <p>
-                Extremely painful. Nor again is there anyone who loves or
-                pursues or desires to obtain pain of itself, because it is pain
-              </p>
             </div>
             <Tdsfeedbackslider></Tdsfeedbackslider>
           </Container>
         </div>
         {/* Our  Pricing Section Start*/}
-        <div className="section ourlatest-pricing grapping" id="price">
+        {/* <div className="section ourlatest-pricing grapping" id="price">
           <Container>
             <div className="title-box">
               <h2>
@@ -418,9 +417,9 @@ class App extends React.Component {
             </div>
             <Tdspricingtable></Tdspricingtable>
           </Container>
-        </div>
+        </div> */}
         {/*Our Latest News  Section Start*/}
-        <div className="section latestnews grapping" id="blog">
+        {/* <div className="section latestnews grapping" id="blog">
           <Container>
             <div className="title-box">
               <h2>
@@ -488,9 +487,9 @@ class App extends React.Component {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         {/* Work With Us  Section Start*/}
-        <div className="workwithus grapping">
+        {/* <div className="workwithus grapping">
           <Container>
             <div className="title-box mb-0">
               <h2 className="text-white">
@@ -500,7 +499,7 @@ class App extends React.Component {
               <Button>Get Started</Button>
             </div>
           </Container>
-        </div>
+        </div> */}
         {/* Contact Us Section Start  */}
         <div className="section contactus grapping" id="contact">
           <Container>

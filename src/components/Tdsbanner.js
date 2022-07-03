@@ -45,10 +45,8 @@ class Tdsbanner extends React.Component {
                     Garage Doors tailored for <span>Specific needs </span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                    commodo viverra maecenas accumsan lacus vel facilisis.
+                    Trusting us relieves you from stress of being unsecured and
+                    unsafe
                   </p>
                 </div>
               </Container>
@@ -62,10 +60,8 @@ class Tdsbanner extends React.Component {
                     Garage Doors tailored for <span>Specific needs </span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                    commodo viverra maecenas accumsan lacus vel facilisis.
+                    Trusting us relieves you from stress of being unsecured and
+                    unsafe
                   </p>
                 </div>
               </Container>
