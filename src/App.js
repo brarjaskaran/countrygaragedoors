@@ -519,7 +519,7 @@ class App extends React.Component {
                   </Media>
                   <Media body>
                     <Media heading>Address</Media>
-                    <p> 6 Wool Street, Aintree, Victoria-3336</p>
+                    <p> 10/16 Fuller Road, Ravenhall, VIC-3023</p>
                   </Media>
                 </Media>
               </Col>
