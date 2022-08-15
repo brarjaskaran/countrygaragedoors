@@ -32,6 +32,7 @@ import Tdspricingtable from "./components/Tdspricingtable";
 import Tdsfooter from "./components/Tdsfooter";
 import "./App.css";
 import "./responsive.css";
+import SubmitForm from "./components/SubmitForm";
 class App extends React.Component {
   render() {
     return (
@@ -584,6 +585,7 @@ class App extends React.Component {
               </Col>
 
               <Col xs="12" md="12" lg="8">
+                <SubmitForm />
                 <Form className="mt-4">
                   <Row>
                     <Col md={6}>
