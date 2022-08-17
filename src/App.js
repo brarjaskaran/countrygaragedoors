@@ -33,6 +33,7 @@ import Tdsfooter from "./components/Tdsfooter";
 import "./App.css";
 import "./responsive.css";
 import SubmitForm from "./components/SubmitForm";
+import Mailer from "./components/Mailler";
 class App extends React.Component {
   render() {
     return (
@@ -585,8 +586,8 @@ class App extends React.Component {
               </Col>
 
               <Col xs="12" md="12" lg="8">
-                <SubmitForm />
-                <Form className="mt-4">
+                <Mailer />
+                {/* <Form className="mt-4">
                   <Row>
                     <Col md={6}>
                       <FormGroup>
@@ -619,7 +620,7 @@ class App extends React.Component {
                   </FormGroup>
 
                   <Button color="primary">Send Message</Button>
-                </Form>
+                </Form> */}
               </Col>
             </Row>
           </Container>
