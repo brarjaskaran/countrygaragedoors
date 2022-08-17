@@ -14,6 +14,7 @@ function Mailer() {
       )
       .then((res) => {
         console.log(res);
+        alert("your message has been sent");
       })
       .catch((err) => {
         console.log(err);
