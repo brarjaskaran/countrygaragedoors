@@ -1,0 +1,22 @@
+.mailer {
+
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailer__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailer__wigth {
+    width: 100%;
+    margin-top: 5px;
+
+}
