@@ -51,7 +51,7 @@ class App extends React.Component {
           <Container>
             <div className="title-box">
               <h2>
-                Welcome to <b>Country Garge Door</b>
+                Welcome to <b>Country Garage Door</b>
               </h2>
             </div>
             <Row>
@@ -171,8 +171,8 @@ class App extends React.Component {
                   <Icofont icon="icofont-ambulance" />
                   <h4>Emergency service</h4>
                   <p>
-                    TYou need services on weekends or during late night hours,
-                    we are available 24x7 for you just a phone call away.
+                    You need services on weekends or during late night hours, we
+                    are available 24x7 for you just a phone call away.
                   </p>
                 </div>
               </Col>
