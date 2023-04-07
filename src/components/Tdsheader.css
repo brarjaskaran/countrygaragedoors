@@ -10,7 +10,7 @@ a.navbar-brand {
 
 }
 a.navbar-brand img {
-    width: 145px;
+    width: 100px;
 }
 nav.fixed-top .logoblack, nav.fixed-top.is-sticky .logowhite{
 display: none;

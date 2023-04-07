@@ -34,6 +34,7 @@ import "./App.css";
 import "./responsive.css";
 import SubmitForm from "./components/SubmitForm";
 import Mailer from "./components/Mailler";
+import ContactStrip from "./components/ContactStrip";
 class App extends React.Component {
   render() {
     return (
@@ -45,6 +46,8 @@ class App extends React.Component {
         <div id="home" className="section">
           <Tdsbanner />
         </div>
+
+        <ContactStrip />
 
         {/* Welcome Section Start */}
         <div className=" welcome-box grapping">

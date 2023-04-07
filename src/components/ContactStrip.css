@@ -1,0 +1,47 @@
+.contact-strip {
+    background-color: #f9f9f9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* z-index: 999; */
+}
+
+.contact-strip__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.contact-strip__phone,
+.contact-strip__email {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+}
+
+.contact-strip__phone i,
+.contact-strip__email i {
+    margin-right: 10px;
+}
+
+.contact-strip__text {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-strip__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-strip__phone,
+    .contact-strip__email {
+        margin-top: 10px;
+    }
+}
